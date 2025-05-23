@@ -1,0 +1,27 @@
+{
+  "name": "devplay",
+  "version": "1.0.0",
+  "description": "making devPlay from chai aur Code yt tuts",
+  "keywords": [
+    "backend",
+    "mongoose",
+    "schema",
+    "database",
+    "dev"
+  ],
+  "homepage": "https://github.com/ashum9/DevPlay#readme",
+  "bugs": {
+    "url": "https://github.com/ashum9/DevPlay/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashum9/DevPlay.git"
+  },
+  "license": "ISC",
+  "author": "ashum9",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,1 +1,3 @@
 # DevPlay
+
+[model structure link](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGdYbElUdnQwRzdHeFZJc1REYjN6RVBFbFFqQXxBQ3Jtc0trZVZSNzJoQmcxRlRzVW9qZWtmTmhNWWlhd19VZWdvVGFMU3B1bXYxNVdqQjR2YmdNc1RzTFd1dlRPTnM1NlV1UWRFbjVBVHViS21fVU4ybmU3YkNTbkFrcjA3Xzh3YXZwblZvUnhTWVZLYVZ6aGc0UQ&q=https%3A%2F%2Fapp.eraser.io%2Fworkspace%2FYtPqZ1VogxGy1jzIDkzj%3Forigin%3Dshare&v=9B4CvtzXRpc)
