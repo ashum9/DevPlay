@@ -1,25 +1,33 @@
-import mongoose from "mongoose";
-import { DB_NAME } from "./constant";
+// require("dotenv").config({path : "./env"})
+import dotenv from "dotenv";
+import connectDB from "./db/index.js";
 
-import express from "express"
+dotenv.config({
+    path: "./env"
+})
 
-const app = express();
+connectDB()
 
-(async () => {
-    try {
-        await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`)
-        app.on("error" , (error) => {
-            console.log("app connection me error aagyi hai " , error);
-            throw error;
-        })
 
-        app.listen(process.env.PORT , () => {
-            console.log(`server is running on port : ${process.env.PORT}`);
+// import express from "express"
+
+// const app = express();
+
+// (async () => {
+//     try {
+//         await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`)
+//         app.on("error" , (error) => {
+//             console.log("app connection me error aagyi hai " , error);
+//             throw error;
+//         })
+
+//         app.listen(process.env.PORT , () => {
+//             console.log(`server is running on port : ${process.env.PORT}`);
             
-        })
+//         })
 
-    } catch (error) {
-        console.error("database connect hone me error aa gyi" , error)
-        throw error
-    }
-})()
+//     } catch (error) {
+//         console.error("database connect hone me error aa gyi" , error)
+//         throw error
+//     }
+// })() 
